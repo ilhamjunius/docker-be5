@@ -1,9 +1,9 @@
 FROM golang:1.16
 
-##buat folder app
+##buat folder APP
 RUN mkdir /app
 
-##test direktori utama
+##set direktori utama
 WORKDIR /app
 
 ##copy seluruh file ke app
